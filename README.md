@@ -66,21 +66,25 @@ I will be including the remaining features within the site, implementing with HT
 
 
 Initial designs created on paper then by using Adobe Powerpoint:
+
+[Initial Sketches](/assets/resources/initial-sketches.png "Link to initial sketches image file")
 <br>
-[Initial Sketches](/assets/resources/initial-sketches.png)
+[Initial Home Page Wireframes](assets/resources/initial-home-page-wireframes.png "Link to initial home page wireframes image file")
 <br>
-[Initial Home Page Wireframes](assets/resources/initial-home-page-wireframes.png)
+[Initial Home Page Wireframes With Design Ideas](assets/resources/initial-home-page-wireframes-with-style.png "Link to initial home page wireframes with style image file")
 <br>
-[Initial Home Page Wireframes With Design Ideas](assets/resources/initial-home-page-wireframes-with-style.png)
-<br>
-[Initial Home Page Wireframes Chosen Design](assets/resources/initial-home-page-chosen-style.png)
+[Initial Home Page Wireframes Chosen Design](assets/resources/initial-home-page-chosen-style.png "Link to initial home page chosen style image file")
 
 I progressed to using Figma and developed further by including layouts for the other pages and arrows to demonstrate navigation to these pages:
+
+[Mobile Wireframes](assets/resources/mobile-wireframes.png "Link to mobile wireframes image file")
 <br>
-[Mobile Wireframes](assets/resources/mobile-wireframes.png)
-<br>
-[Desktop Wireframes](assets/resources/desktop-wireframes.png)
+[Desktop Wireframes](assets/resources/desktop-wireframes.png "Link to desktop wireframes image file")
 
 All of these designs can be viewed more closely by visiting my figma page below:
+
+[Figma Wireframes Designs Page](https://www.figma.com/file/9Ioehs6ELzng3FZX2CQiR8/Page-Wireframes-for-bBoulder-Climbing-Centre-Site?type=design&node-id=21-1157&mode=design&t=Xg50D9xzmFzjb80e-0 "Link to Figma Wireframe Designs Page")
 <br>
-[Figma Wireframes Designs Page](https://www.figma.com/file/9Ioehs6ELzng3FZX2CQiR8/Page-Wireframes-for-bBoulder-Climbing-Centre-Site?type=design&node-id=21-1157&mode=design&t=Xg50D9xzmFzjb80e-0 "My Figma Wireframe Desins Page")
+![Preview snippet of Figma Designs Page](assets/resources/figma-page-preview.png "Preview snippet of Figma Designs Page")
+
+
