@@ -87,4 +87,20 @@ All of these designs can be viewed more closely by visiting my figma page below:
 <br>
 ![Preview snippet of Figma Designs Page](assets/resources/figma-page-preview.png "Preview snippet of Figma Designs Page")
 
+#### Surface:
 
+Fonts:
+<br>
+I have chosen the [Poppins](https://fonts.google.com/?query=poppins "link to Poppins google font") google font for the headers on my site as I felt this was a clear, readable font that was also pleasing to the eye. After researching, I have found a couple of other google fonts that complement this nicely; [Gravitas One](https://fonts.google.com/specimen/Gravitas+One?preview.text=bBoulder&query=Gravitas+One "link to Gravitas One google font") (for the logo) and [Vollkorn](https://fonts.google.com/?query=vollkorn "link to Volkorn google font") (for the general content).
+
+
+## References
+
+Fonts:
+<br>
+https://fonts.google.com/
+<br>
+https://www.creatopy.com/blog/google-font-pairings/
+<br>
+https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
+ 
