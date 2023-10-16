@@ -89,18 +89,29 @@ All of these designs can be viewed more closely by visiting my figma page below:
 
 #### Surface:
 
-Fonts:
+Typography:
 <br>
-I have chosen the [Poppins](https://fonts.google.com/?query=poppins "link to Poppins google font") google font for the headers on my site as I felt this was a clear, readable font that was also pleasing to the eye. After researching, I have found a couple of other google fonts that complement this nicely; [Gravitas One](https://fonts.google.com/specimen/Gravitas+One?preview.text=bBoulder&query=Gravitas+One "link to Gravitas One google font") (for the logo) and [Vollkorn](https://fonts.google.com/?query=vollkorn "link to Volkorn google font") (for the general content).
+I have chosen the [Poppins](https://fonts.google.com/?query=poppins "link to Poppins google font") google font for the headers on my site as I felt this was a clear, readable font that was also pleasing to the eye. After researching, I have found a couple of other google fonts that complement this nicely; [Gravitas One](https://fonts.google.com/specimen/Gravitas+One?preview.text=bBoulder&query=Gravitas+One "link to Gravitas One google font") for the logo, and [Vollkorn](https://fonts.google.com/?query=vollkorn "link to Volkorn google font") for the general content.
 
+Colour Scheme:
+<br>
+I have chosen to go with a colour palette that represents the feeling of the experience that the company offers:
+- Orange (HEX #CC480F); fun, happiness, dynamic 
+- Green (HEX #04861E); renewal, healing, harmony 
+I will also be using white, black and grey as neutral colours/shades for typography and background sections.
+
+I used a contrast check on webaim.org to ensure that the color scheme meets the Web Content Accessibility Guideliness for readability. 
 
 ## References
 
-Fonts:
+Typography:
 <br>
 https://fonts.google.com/
 <br>
 https://www.creatopy.com/blog/google-font-pairings/
 <br>
 https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
- 
+
+Colour Scheme:
+<br>
+https://webaim.org/resources/contrastchecker/
