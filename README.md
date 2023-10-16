@@ -64,11 +64,23 @@ I will be including the remaining features within the site, implementing with HT
 
 * Design:
 
+
+Initial designs created on paper then by using Adobe Powerpoint:
+<br>
 [Initial Sketches](/assets/resources/initial-sketches.png)
-
+<br>
 [Initial Home Page Wireframes](assets/resources/initial-home-page-wireframes.png)
-
+<br>
 [Initial Home Page Wireframes With Design Ideas](assets/resources/initial-home-page-wireframes-with-style.png)
-
+<br>
 [Initial Home Page Wireframes Chosen Design](assets/resources/initial-home-page-chosen-style.png)
 
+I progressed to using Figma and developed further by including layouts for the other pages and arrows to demonstrate navigation to these pages:
+<br>
+[Mobile Wireframes](assets/resources/mobile-wireframes.png)
+<br>
+[Desktop Wireframes](assets/resources/desktop-wireframes.png)
+
+All of these designs can be viewed more closely by visiting my figma page below:
+<br>
+[Figma Wireframes Designs Page](https://www.figma.com/file/9Ioehs6ELzng3FZX2CQiR8/Page-Wireframes-for-bBoulder-Climbing-Centre-Site?type=design&node-id=21-1157&mode=design&t=Xg50D9xzmFzjb80e-0 "My Figma Wireframe Desins Page")
