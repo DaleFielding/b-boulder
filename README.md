@@ -62,6 +62,13 @@ I will be including the remaining features within the site, implementing with HT
 * Habits and conventions:
     - Users will navgate through the site by scrolling down the pages, through links in the navbar, media within the pages, icons and links within the footer (at the bottom)
 
-* Designs:
+* Design:
 
 [Initial Sketches](/assets/resources/initial-sketches.png)
+
+[Initial Home Page Wireframes](assets/resources/initial-home-page-wireframes.png)
+
+[Initial Home Page Wireframes With Design Ideas](assets/resources/initial-home-page-wireframes-with-style.png)
+
+[Initial Home Page Wireframes Chosen Design](assets/resources/initial-home-page-chosen-style.png)
+
