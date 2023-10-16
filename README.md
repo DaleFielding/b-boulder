@@ -64,4 +64,4 @@ I will be including the remaining features within the site, implementing with HT
 
 * Designs:
 
-<a href="/assets/resources/initial-sketches.png" target="_blank">Initial Sketches</a>
+[Initial Sketches](/assets/resources/initial-sketches.png)
