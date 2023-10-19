@@ -115,3 +115,11 @@ https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vo
 Colour Scheme:
 <br>
 https://webaim.org/resources/contrastchecker/
+
+Code:
+<br>
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+<br>
+I have some used template code from bootstrap such as the navbar to ensure responsiveness and a functioning collapsible menu. 
+
+
