@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%
+    height: 100%;
 }
 
 /* BOOTSTRAP GENERAL */
@@ -57,36 +57,7 @@ body {
     color: rgb(253, 253, 129);
 }
 
-/* BG-IMG */
-.banner {
-    position: relative;
-    height: auto;
-    text-align: right;
-}
-
-.banner-text {
-    position: absolute;
-    max-width: 50vw;
-    top: 38vh;
-    right: 0;
-    color: #fff;
-    padding: 0 2vw;
-    z-index: 2;
-}
-
-.triangle-top {
-    width: 0;
-    height: 0;
-    border-top: 60vh solid transparent;
-    border-right: 50vw solid #04861E;
-    z-index: 1;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-
+/* BACKGROUND-IMAGE */
 .img-1 {
     background-image: url("../images /bg-img-woman-bouldering.jpg");
 }
@@ -100,4 +71,54 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* BANNER */
+.banner {
+    position: relative;
+    height: auto;
+}
+
+.banner-text-top {
+    position: absolute;
+    max-width: 35vw;
+    top: 38vh;
+    right: 0;
+    color: #fff;
+    padding: 0 2vw;
+    z-index: 2;
+    text-align: right;
+}
+
+.triangle-top {
+    width: 0;
+    height: 0;
+    border-top: 60.1vh solid transparent;
+    border-right: 50.1vw solid #04861E;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.triangle-bottom {
+    width: 0;
+    height: 0;
+    border-bottom: 60.1vh solid transparent;
+    border-left: 50.1vw solid #04861E;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.banner-text-bottom {
+    position: absolute;
+    max-width: 35vw;
+    top: 60vh;
+    left: 0;
+    color: #fff;
+    padding: 2vh 2vw;
+    z-index: 2;
+    text-align: left;
 }
