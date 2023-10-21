@@ -122,6 +122,8 @@ Code:
 
 * Tutorial used to understand how to place the two background images as desired for the homepage - https://www.youtube.com/watch?v=iC6hzjR1luY 
 
+* Tutorial used understand how to create a triangle shape for the coloured banner - https://css-tricks.com/snippets/css/css-triangle/
+
 Images:
 <br>
 * Background image 1, from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>

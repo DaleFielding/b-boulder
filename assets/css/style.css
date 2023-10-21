@@ -1,9 +1,15 @@
+/* GENERAL */
 body {
     margin: 0;
     padding: 0;
     height: 100%
 }
 
+/* BOOTSTRAP GENERAL */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* NAVBAR */
 .navbar {
@@ -22,12 +28,17 @@ body {
     background-color: black;
     padding: 5px 30px;
     border: solid 2px white;
+    margin-left: 2vw;
 
 }
 
 .navbar .navbar-nav a {
     color: white;
     text-transform: uppercase;
+}
+
+.navbar .navbar-nav {
+    margin-right: 2vw;
 }
 
 .navbar-nav .nav-link.active {
@@ -37,10 +48,6 @@ body {
 }
 
 /* ALERT */
-.alert-container {
-    padding-left: 0;
-    padding-right: 0;
-}
 
 .alert {
     border-radius: 0;
@@ -51,6 +58,35 @@ body {
 }
 
 /* BG-IMG */
+.banner {
+    position: relative;
+    height: auto;
+    text-align: right;
+}
+
+.banner-text {
+    position: absolute;
+    max-width: 50vw;
+    top: 38vh;
+    right: 0;
+    color: #fff;
+    padding: 0 2vw;
+    z-index: 2;
+}
+
+.triangle-top {
+    width: 0;
+    height: 0;
+    border-top: 60vh solid transparent;
+    border-right: 50vw solid #04861E;
+    z-index: 1;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
 .img-1 {
     background-image: url("../images /bg-img-woman-bouldering.jpg");
 }
