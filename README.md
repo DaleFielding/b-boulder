@@ -106,20 +106,24 @@ I used a contrast check on webaim.org to ensure that the color scheme meets the 
 
 Typography:
 <br>
-https://fonts.google.com/
+* https://fonts.google.com/
 <br>
-https://www.creatopy.com/blog/google-font-pairings/
+* https://www.creatopy.com/blog/google-font-pairings/
 <br>
-https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
+* https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
 
 Colour Scheme:
 <br>
 https://webaim.org/resources/contrastchecker/
 
 Code:
-<br>
-https://getbootstrap.com/docs/5.3/getting-started/introduction/
-<br>
-I have some used template code from bootstrap such as the navbar to ensure responsiveness and a functioning collapsible menu. 
 
+* I have some used template code from Bootstrap documentation, such as the navbar to ensure responsiveness and a functioning collapsible menu - https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
+* Tutorial used to understand how to place the two background images as desired for the homepage - https://www.youtube.com/watch?v=iC6hzjR1luY 
+
+Images:
+<br>
+* Background image 1, from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>
+<br>
+* Background image 2, from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik</a>
