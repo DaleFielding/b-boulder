@@ -1,4 +1,5 @@
 /* GENERAL */
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +15,14 @@ body {
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* COLOURS */
+
+
+:root {
+    --our-green: #04861E;
+    --our-orange: #CC480F;
 }
 
 /* FONTS */
@@ -33,24 +42,35 @@ body {
 
 /* NAVBAR */
 .navbar {
-    margin-bottom: 0;
     border: 0;
-    background-color: #CC480F;
+    background-color: var(--our-orange);
+    padding: 0 5px 0 15px;
 }
 
 .navbar .navbar-toggler {
     border: 0;
 }
 
+.navbar li {
+    border-top: 1px solid #ad3e0f;
+
+}
+
 .navbar .navbar-brand {
     font-weight: bold;
     color: white;
     background-color: black;
-    padding: 5px 30px;
+    padding: 6px 30px;
     border: solid 2px white;
-    margin-left: 1vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1em;
 
+}
+
+.navbar .navbar-nav {
+    margin-right: 2vw;
+    text-align: center;
 }
 
 .navbar .navbar-nav a {
@@ -58,9 +78,10 @@ body {
     text-transform: uppercase;
 }
 
-.navbar .navbar-nav {
-    margin-right: 2vw;
+.navbar .navbar-nav a:hover {
+    text-decoration: underline;
 }
+
 
 .navbar-nav .nav-link.active {
     font-weight: bold;
@@ -68,11 +89,20 @@ body {
     text-decoration: underline;
 }
 
+.navbar-toggler-icon {
+    font-size: 2rem;
+}
+
+.navbar-toggler-icon:hover {
+    color: black;
+}
+
 /* ALERT */
 
 .alert {
     border-radius: 0;
     margin: 0;
+    padding: 7px;
     background-color: rgb(20, 20, 20);
     border: none;
     color: rgb(253, 253, 129);
@@ -115,7 +145,7 @@ body {
     width: 0;
     height: 0;
     border-top: 60.1vh solid transparent;
-    border-right: 50.1vw solid #04861E;
+    border-right: 50.1vw solid var(--our-green);
     z-index: 1;
     position: absolute;
     top: 0;
@@ -126,7 +156,7 @@ body {
     width: 0;
     height: 0;
     border-bottom: 60.1vh solid transparent;
-    border-left: 50.1vw solid #04861E;
+    border-left: 50.1vw solid var(--our-green);
     z-index: 1;
     position: absolute;
     bottom: 0;
@@ -170,7 +200,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #CC480F;
+    background: var(--our-orange);
 }
 
 .quick-links li a {
@@ -184,9 +214,20 @@ footer {
 }
 
 .quick-links li a:hover {
-    color: #CC480F;
+    color: var(--our-orange);
 }
 
 #footer-details {
     padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 0 0 0 35px;
+    }
+
+    .navbar li {
+        border-top: none;
+        padding-left: 3vw;
+    }
 }
