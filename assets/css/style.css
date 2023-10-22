@@ -125,53 +125,61 @@ body {
 }
 
 /* BANNER */
-.banner {
+.banner-top {
+    position: relative;
+    height: auto;
+}
+
+.banner-bottom {
     position: relative;
     height: auto;
 }
 
 .banner-text-top {
     position: absolute;
-    max-width: 35vw;
-    top: 38vh;
-    right: 0;
     color: #fff;
-    padding: 0 2vw;
+    padding: 0 30vw;
+    bottom: -12vh;
     z-index: 2;
-    text-align: right;
+}
+
+.banner-text-top a {
+    color: #fff;
+    background-color: var(--our-orange);
+    padding: 2px 10px;
+    text-decoration: none;
+    border-radius: 4%;
+    font-weight: bold;
+}
+
+.banner-text-top a:hover {
+    text-decoration: underline;
 }
 
 .triangle-top {
     width: 0;
     height: 0;
-    border-top: 60.1vh solid transparent;
-    border-right: 50.1vw solid var(--our-green);
+    border-top: 30.5vh solid transparent;
+    border-right: 100vw solid var(--our-green);
     z-index: 1;
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
 }
 
 .triangle-bottom {
     width: 0;
     height: 0;
-    border-bottom: 60.1vh solid transparent;
-    border-left: 50.1vw solid var(--our-green);
+    border-bottom: 30.5vh solid transparent;
+    border-left: 100vw solid var(--our-green);
     z-index: 1;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
 }
 
 .banner-text-bottom {
-    position: absolute;
-    max-width: 35vw;
-    top: 60vh;
-    left: 0;
-    color: #fff;
-    padding: 2vh 2vw;
-    z-index: 2;
-    text-align: left;
+    display: none;
 }
 
 /* FOOTER */
@@ -221,6 +229,7 @@ footer {
     padding: 20px;
 }
 
+/* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
     .navbar {
         padding: 0 0 0 35px;
@@ -229,5 +238,35 @@ footer {
     .navbar li {
         border-top: none;
         padding-left: 3vw;
+    }
+
+    .banner-text-top {
+        right: 0;
+        bottom: 1rem;
+        padding: 0 2vw;
+        max-width: 40vw;
+        text-align: right;
+    }
+
+    .triangle-top {
+        border-top: 60vh solid transparent;
+        border-right: 50vw solid var(--our-green);
+    }
+
+    .triangle-bottom {
+        border-bottom: 60vh solid transparent;
+        border-left: 50vw solid var(--our-green);
+    }
+
+    .banner-text-bottom {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        max-width: 40vw;
+        color: #fff;
+        padding: 0 2vw;
+        z-index: 2;
+        text-align: left;
     }
 }
