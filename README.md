@@ -124,6 +124,8 @@ Code:
 
 * Tutorial used understand how to create a triangle shape for the coloured banner - https://css-tricks.com/snippets/css/css-triangle/
 
+* Footer layout inspired by the codeinstitute resume project - https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/
+
 Images:
 <br>
 * Background image 1, from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>

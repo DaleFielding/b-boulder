@@ -6,6 +6,10 @@ body {
     font-family: 'Volkorn', 'Times New Roman', serif;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* BOOTSTRAP GENERAL */
 .container-fluid {
     padding-left: 0;
@@ -138,4 +142,51 @@ body {
     padding: 2vh 2vw;
     z-index: 2;
     text-align: left;
+}
+
+/* FOOTER */
+footer {
+    background-color: #e4e4e4;
+    min-height: 120px;
+    margin: 0;
+    border-top: 30px solid #b4b4b4;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    margin-top: 8px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: black;
+    background: #ffffff;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #CC480F;
+}
+
+.quick-links li a {
+    color: black;
+    line-height: 7px;
+    text-decoration: none;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.quick-links li a:hover {
+    color: #CC480F;
+}
+
+#footer-details {
+    padding: 20px;
 }
