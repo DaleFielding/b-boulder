@@ -3,12 +3,28 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Volkorn', 'Times New Roman', serif;
 }
 
 /* BOOTSTRAP GENERAL */
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* FONTS */
+.heading-font {
+    font-family: 'Poppins', 'Arial', serif;
+}
+
+.heading-font-ital {
+    font-family: 'Poppins', 'Arial', serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.brand-font {
+    font-family: 'Gravitas One', Courier, monospace;
 }
 
 /* NAVBAR */
@@ -28,7 +44,8 @@ body {
     background-color: black;
     padding: 5px 30px;
     border: solid 2px white;
-    margin-left: 2vw;
+    margin-left: 1vw;
+    font-size: 1em;
 
 }
 
