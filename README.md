@@ -97,10 +97,13 @@ Colour Scheme:
 <br>
 I have chosen to go with a colour palette that represents the feeling of the experience that the company offers:
 - Orange (HEX #CC480F); fun, happiness, dynamic 
-- Green (HEX #04861E); renewal, healing, harmony 
+- Green (HEX #3da369); renewal, healing, harmony 
+I had intially gone for a much darker green (#04861E) then I actually wanted in order to pass the contrast check. However when playing around to achieve a more preferrable green, I noticed the new green does pass when using large text for the foreground; which is my only intention for this green on the site.
+
 I will also be using white, black and grey as neutral colours/shades for typography and background sections.
 
-I used a contrast check on webaim.org to ensure that the color scheme meets the Web Content Accessibility Guideliness for readability. 
+I used a contrast checker on webaim.org to ensure that the color scheme meets the Web Content Accessibility Guideliness for readability. 
+
 
 ## References
 

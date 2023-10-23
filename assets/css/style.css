@@ -20,9 +20,14 @@ body {
 
 
 :root {
-    --our-green: #04861E;
-    --our-orange: #CC480F;
+
+    --our-green: #3da369;
+    --our-orange: #d46333;
+
+
 }
+
+
 
 /* FONTS */
 .heading-font {
@@ -187,7 +192,7 @@ footer {
     background-color: #e4e4e4;
     min-height: 120px;
     margin: 0;
-    border-top: 30px solid #b4b4b4;
+    border-top: 30px solid #999999;
     text-align: center;
 }
 
@@ -211,23 +216,45 @@ footer {
     background: var(--our-orange);
 }
 
+.quick-links li {
+    padding-bottom: 7px;
+}
+
+
 .quick-links li a {
     color: black;
-    line-height: 7px;
+
     text-decoration: none;
+}
+
+.quick-links li a:hover {
+    color: var(--our-orange);
+    text-decoration: underline;
+}
+
+
+#footer-details {
+    padding: 20px;
+}
+
+#footer-details p a {
+    width: 32px;
+    height: 32px;
+    padding: 8px 0;
+    margin-top: 8px;
+    font-size: 32px;
+    line-height: 7px;
+    color: #999999;
     transition: all 0.20s ease-in-out;
     -moz-transition: all 0.20s ease-in-out;
     -webkit-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
 }
 
-.quick-links li a:hover {
+#footer-details p a:hover {
     color: var(--our-orange);
 }
 
-#footer-details {
-    padding: 20px;
-}
 
 /* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
@@ -268,5 +295,20 @@ footer {
         padding: 0 2vw;
         z-index: 2;
         text-align: left;
+    }
+
+    .footer-heading {
+        padding-bottom: 6px;
+    }
+}
+
+/* SMALLER SCREEN SIZES  */
+@media (max-width: 992px) {
+    .list-style-item {
+        display: inline-block;
+    }
+
+    .footer-section:last-child {
+        padding: 30px;
     }
 }
