@@ -90,7 +90,6 @@ body {
 .navbar-nav .nav-link.active {
     font-weight: bold;
     color: white;
-    text-decoration: underline;
 }
 
 .navbar-toggler-icon {
