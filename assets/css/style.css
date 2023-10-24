@@ -106,20 +106,23 @@ body {
 .alert {
     border-radius: 0;
     margin: 0;
-    padding: 7px;
+    padding: 2px;
     background-color: rgb(20, 20, 20);
-    border: none;
-    color: rgb(253, 253, 129);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgba(48, 48, 48, 0.1);
+    border-top: 5px solid rgba(48, 48, 48, 0.1);
+    color: rgb(48, 48, 48);
+    font-weight: 600;
 }
 
 
 /* BACKGROUND-IMAGE */
 .img-1 {
-    background-image: url("../images /bg-img-woman-bouldering.jpg");
+    background-image: url("../images /background-image-1.jpg");
 }
 
 .img-2 {
-    background-image: url("../images /bg-image-man-in-ice-bath.jpg");
+    background-image: url("../images /background-image-2.jpg");
 }
 
 .bg-img {
