@@ -4,6 +4,7 @@ body {
     padding: 0;
     height: 100%;
     font-family: 'Volkorn', 'Times New Roman', serif;
+    font-size: 18px;
 }
 
 .uppercase {
@@ -331,7 +332,8 @@ footer {
 }
 
 .main-content-section h1,
-h2 {
+h2,
+h4 {
     font-style: italic;
     text-align: center;
 }
@@ -341,6 +343,20 @@ h2 {
     padding-bottom: 2rem;
 }
 
+.main-content-section h5 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.main-content-section ul {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.main-content-section li {
+    text-decoration: none;
+    text-align: center;
+}
 
 /* Block dividers */
 .block-divider {
@@ -350,3 +366,5 @@ h2 {
     background-color: var(--our-green);
     opacity: 0.6;
 }
+
+/* ---------- /ABOUT PAGE ---------- */
