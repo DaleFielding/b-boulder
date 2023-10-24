@@ -254,7 +254,6 @@ footer {
     color: var(--our-orange);
 }
 
-
 /* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
     .navbar {
@@ -310,4 +309,44 @@ footer {
     .footer-section:last-child {
         padding: 30px;
     }
+}
+
+
+/* ---------- ABOUT PAGE ---------- */
+
+
+.main-content {
+    padding: 1rem;
+    max-width: 992px;
+    margin: auto;
+}
+
+.main-content-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main-content-section h1 {
+    padding-top: 4rem;
+}
+
+.main-content-section h1,
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+.main-content-section p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+/* Block dividers */
+.block-divider {
+    height: 5px;
+    border: 0;
+    background-color: #4e4e4e;
+    background-color: var(--our-green);
+    opacity: 0.6;
 }
