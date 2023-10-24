@@ -108,28 +108,42 @@ I used a contrast checker on webaim.org to ensure that the color scheme meets th
 ## References
 
 Typography:<br>
-* https://fonts.google.com<br>
-* https://www.creatopy.com/blog/google-font-pairings/<br>
-* https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
+* <a href="https://fonts.google.com">Google Fonts</a><br>
+* <a href="https://www.creatopy.com/blog/google-font-pairings/">Creatopy font pairings article</a><br>
+* <a href="https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy">Vev.design font pairings article</a><br>
 
 Colour Scheme:<br>
-https://webaim.org/resources/contrastchecker/
+* <a href="https://webaim.org/resources/contrastchecker">Webaim contrast checker</a><br>
+
 
 Code:
 
-* I have some used template code from Bootstrap documentation, such as the navbar to ensure responsiveness and a functioning collapsible menu - https://getbootstrap.com/docs/5.3/getting-started/introduction/
+* I have some used template code from Bootstrap documentation, such as the navbar to ensure responsiveness and a functioning collapsible menu - 
+[Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/ "link to Bootstrap Docs")
 
-* Tutorial used to understand how to place the two background images as desired for the homepage - https://www.youtube.com/watch?v=iC6hzjR1luY 
 
-* Tutorial used understand how to create a triangle shape for the coloured banner - https://css-tricks.com/snippets/css/css-triangle/
+* Tutorial used to understand how to place the two background images as desired for the homepage - 
+[Youtube Tutorial](https://www.youtube.com/watch?v=iC6hzjR1luY "link to Youtube tutorial")
 
-* Footer layout inspired by the codeinstitute resume project - https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/
+* Tutorial used understand how to create a triangle shape for the coloured banner - 
+[CSS Tricks](https://css-tricks.com/snippets/css/css-triangle/ "link to CSS tricks tutorial")
 
-* Tutorial used to implement CSS variable colors - https://www.w3schools.com/css/css3_variables.asp
+* Footer layout inspired by the codeinstitute resume project - 
+[Codeinstitute Link](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/ "link to Codeinstitute resume project")
 
-Images:<br>
-* Background image 1 is from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik.com</a><br>
-* Background image 2 is from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik.com</a>
+* Tutorial used to implement CSS variable colors - 
+[CSS Tricks](https://www.w3schools.com/css/css3_variables.asp "link to CSS variable colors tutorial")
 
-Video:<br>
-* Showing bouldering facilities is from <a href="https://www.pexels.com/video/athletes-climbing-a-wall-7591810/">Pexels.com</a><br>
+### Media:<br>
+
+Home page:
+* Background image 1 is from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a><br>
+* Background image 2 is from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik</a>
+
+About page:
+* Bouldering facilities video is from <a href="https://www.pexels.com/video/athletes-climbing-a-wall-7591810/">Pexels</a><br>
+* Image 1 is from <a href="https://www.freepik.com/free-photo/medium-shot-friends-climbing-wall_44983886.htm#query=climbing%20indoor&position=25&from_view=search&track=ais">Freepik</a><br>
+* Image 2 is from <a href="https://www.freepik.com/free-photo/full-shot-woman-climbing-wall_44983705.htm#query=climbing%20indoor&position=37&from_view=search&track=ais">Freepik</a><br>
+* Image 3 is from <a href="https://unsplash.com/photos/man-in-black-and-white-crew-neck-t-shirt-and-black-shorts-standing-on-brown-concrete-RwjeAb3lXQo"> Unsplash</a><br>
+* Image 4 is from <a href="https://www.freepik.com/free-photo/professional-female-climber-bouldering-wall-indoors_26471812.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>
+
