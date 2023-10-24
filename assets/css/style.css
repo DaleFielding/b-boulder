@@ -314,8 +314,6 @@ footer {
 
 
 /* ---------- ABOUT PAGE ---------- */
-
-
 .main-content {
     padding: 1rem;
     max-width: 992px;
@@ -343,8 +341,11 @@ h4 {
     padding-bottom: 2rem;
 }
 
+.main-content-section h2 {
+    padding-bottom: 1rem;
+}
+
 .main-content-section h5 {
-    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -356,6 +357,11 @@ h4 {
 .main-content-section li {
     text-decoration: none;
     text-align: center;
+}
+
+video {
+    height: auto;
+    max-width: 100%;
 }
 
 /* Block dividers */

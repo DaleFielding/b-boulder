@@ -107,16 +107,12 @@ I used a contrast checker on webaim.org to ensure that the color scheme meets th
 
 ## References
 
-Typography:
-<br>
-* https://fonts.google.com/
-<br>
-* https://www.creatopy.com/blog/google-font-pairings/
-<br>
+Typography:<br>
+* https://fonts.google.com<br>
+* https://www.creatopy.com/blog/google-font-pairings/<br>
 * https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy
 
-Colour Scheme:
-<br>
+Colour Scheme:<br>
 https://webaim.org/resources/contrastchecker/
 
 Code:
@@ -131,8 +127,9 @@ Code:
 
 * Tutorial used to implement CSS variable colors - https://www.w3schools.com/css/css3_variables.asp
 
-Images:
-<br>
-* Background image 1, from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>
-<br>
-* Background image 2, from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik</a>
+Images:<br>
+* Background image 1 is from <a href="https://www.freepik.com/free-photo/cheerful-woman-climbing-wall-gym_5576896.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik.com</a><br>
+* Background image 2 is from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik.com</a>
+
+Video:<br>
+* Showing bouldering facilities is from <a href="https://www.pexels.com/video/athletes-climbing-a-wall-7591810/">Pexels.com</a><br>
