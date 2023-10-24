@@ -1,4 +1,5 @@
 /* GENERAL */
+
 body {
     margin: 0;
     padding: 0;
@@ -27,8 +28,6 @@ body {
 
 
 }
-
-
 
 /* FONTS */
 .heading-font {
@@ -258,6 +257,85 @@ footer {
     color: var(--our-orange);
 }
 
+
+/* ---------- ABOUT PAGE ---------- */
+.main-content {
+    max-width: 992px;
+    margin: auto;
+}
+
+.main-content-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main-content-section h1 {
+    padding-top: 4rem;
+}
+
+.main-content-section h1,
+h2,
+h4 {
+    font-style: italic;
+    text-align: center;
+}
+
+.main-content-section p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.main-content-section h2 {
+    padding-bottom: 1rem;
+}
+
+.main-content-section h5 {
+    padding-bottom: 2rem;
+}
+
+.main-content-section ul {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.main-content-section li {
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-images-container {
+    max-width: 960px;
+}
+
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-images {
+    background-color: rgb(34, 34, 34);
+}
+
+.about-images {
+    padding: 0;
+}
+
+/* Block dividers */
+.block-divider {
+    height: 5px;
+    border: 0;
+    background-color: #4e4e4e;
+    background-color: var(--our-green);
+    opacity: 0.6;
+}
+
+/* .about-images-container {
+    padding-top: 2rem;
+} */
+
+
+/* ---------- /ABOUT PAGE ---------- */
+
 /* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
     .navbar {
@@ -302,6 +380,10 @@ footer {
     .footer-heading {
         padding-bottom: 6px;
     }
+
+    .main-content {
+        padding: 1rem;
+    }
 }
 
 /* SMALLER SCREEN SIZES  */
@@ -314,66 +396,3 @@ footer {
         padding: 30px;
     }
 }
-
-
-/* ---------- ABOUT PAGE ---------- */
-.main-content {
-    padding: 1rem;
-    max-width: 992px;
-    margin: auto;
-}
-
-.main-content-section {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-.main-content-section h1 {
-    padding-top: 4rem;
-}
-
-.main-content-section h1,
-h2,
-h4 {
-    font-style: italic;
-    text-align: center;
-}
-
-.main-content-section p {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.main-content-section h2 {
-    padding-bottom: 1rem;
-}
-
-.main-content-section h5 {
-    padding-bottom: 2rem;
-}
-
-.main-content-section ul {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.main-content-section li {
-    text-decoration: none;
-    text-align: center;
-}
-
-video {
-    height: auto;
-    max-width: 100%;
-}
-
-/* Block dividers */
-.block-divider {
-    height: 5px;
-    border: 0;
-    background-color: #4e4e4e;
-    background-color: var(--our-green);
-    opacity: 0.6;
-}
-
-/* ---------- /ABOUT PAGE ---------- */
