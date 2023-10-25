@@ -25,6 +25,7 @@ body {
 :root {
 
     --our-green: #3da369;
+    --our-green-faded: rgb(61, 163, 105, 0.25);
     --our-orange: #d46333;
 
 
@@ -333,6 +334,9 @@ video {
 /* ---------- /ABOUT PAGE ---------- */
 
 /* ---------- CLASSES PAGE ---------- */
+.accordion {
+    margin-bottom: 2.5rem;
+}
 
 .accordion-item,
 .accordion-item button {
@@ -355,6 +359,17 @@ video {
     border-left: 1px solid #e4e4e4;
 }
 
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #fafafa;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem var(--our-green-faded);
+    border-color: var(--our-green);
+}
+
+/* .accordion-btn-focus-box-shadow */
 
 /* ---------- /CLASSES PAGE ---------- */
 
