@@ -294,11 +294,6 @@ h4 {
     padding-bottom: 2rem;
 }
 
-.main-content-section ul {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
 .main-content-section li {
     text-decoration: none;
     text-align: center;
@@ -327,7 +322,7 @@ video {
     border: 0;
     background-color: #4e4e4e;
     background-color: var(--our-green);
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 /* .about-images-container {
@@ -336,6 +331,34 @@ video {
 
 
 /* ---------- /ABOUT PAGE ---------- */
+
+/* ---------- CLASSES PAGE ---------- */
+
+.accordion-item,
+.accordion-item button {
+    background-color: #fafafa;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.accordion-border-right {
+    border-right: 1px solid #e4e4e4;
+}
+
+.accordion-border-left {
+    border-left: 1px solid #e4e4e4;
+}
+
+
+/* ---------- /CLASSES PAGE ---------- */
+
+
 
 /* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
