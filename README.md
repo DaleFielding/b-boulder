@@ -141,9 +141,17 @@ Home page:
 * Background image of man climbing is from <a href="https://www.freepik.com/free-photo/man-doing-his-self-care-ritual_20935535.htm#query=person%20in%20bath&position=5&from_view=search&track=ais#position=5&query=person%20in%20bath">Freepik</a>
 
 About page:
-* Bouldering facilities video is from <a href="https://www.pexels.com/video/athletes-climbing-a-wall-7591810/">Pexels</a><br>
-* Climbers looking at each other is from <a href="https://www.freepik.com/free-photo/medium-shot-friends-climbing-wall_44983886.htm#query=climbing%20indoor&position=25&from_view=search&track=ais">Freepik</a><br>
-* Man climbing facing away is from <a href="https://www.freepik.com/free-photo/full-shot-woman-climbing-wall_44983705.htm#query=climbing%20indoor&position=37&from_view=search&track=ais">Freepik</a><br>
-* Woman climbing facing out is from <a href="https://unsplash.com/photos/man-in-black-and-white-crew-neck-t-shirt-and-black-shorts-standing-on-brown-concrete-RwjeAb3lXQo"> Unsplash</a><br>
-* Woman climbing side on <a href="https://www.freepik.com/free-photo/professional-female-climber-bouldering-wall-indoors_26471812.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>
+* Video of bouldering facilities is from <a href="https://www.pexels.com/video/athletes-climbing-a-wall-7591810/">Pexels</a><br>
+* Image of climbers looking at each other is from <a href="https://www.freepik.com/free-photo/medium-shot-friends-climbing-wall_44983886.htm#query=climbing%20indoor&position=25&from_view=search&track=ais">Freepik</a><br>
+* Image of man climbing facing away is from <a href="https://www.freepik.com/free-photo/full-shot-woman-climbing-wall_44983705.htm#query=climbing%20indoor&position=37&from_view=search&track=ais">Freepik</a><br>
+* Image of woman climbing facing out is from <a href="https://unsplash.com/photos/man-in-black-and-white-crew-neck-t-shirt-and-black-shorts-standing-on-brown-concrete-RwjeAb3lXQo"> Unsplash</a><br>
+* Image of woman climbing side on <a href="https://www.freepik.com/free-photo/professional-female-climber-bouldering-wall-indoors_26471812.htm#query=climbing%20indoor&position=0&from_view=search&track=ais">Freepik</a>
+
+Wellbeing Focus page:
+
+* Image of women woman-using-stretching-equipment is from <a href="https://www.freepik.com/free-photo/two-young-fit-women-training-gym_20757869.htm#query=stretching%20area&position=13&from_view=search&track=ais">Freepik</a>
+* Image of woman receiving osteopathy is from <a href="https://www.freepik.com/free-photo/professional-female-physiotherapist-giving-shoulder-massage-blonde-woman_1318975.htm#query=osteopatie&position=8&from_view=search&track=ais">Freepik</a>
+* Image of woman relaxing in water is from <a href="https://www.freepik.com/free-photo/woman-relaxing-spa_3513036.htm#page=5&query=person%20in%20bath&position=43&from_view=search&track=ais">Freepik</a>
+
+ 
 
