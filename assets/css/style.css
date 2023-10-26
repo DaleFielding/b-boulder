@@ -375,11 +375,12 @@ video {
 
 /* ---------- WELLBEING FOCUS PAGE ---------- */
 
-.wellbeing-section h5 {
+.wellbeing-focus-main h5 {
     padding-top: 1rem;
     margin: 0;
     padding-bottom: 1rem;
 }
+
 
 /* ---------- /WELLBEING FOCUS PAGE ---------- */
 
@@ -442,5 +443,15 @@ video {
 
     .footer-section:last-child {
         padding: 30px;
+    }
+
+    .image-container {
+        padding: 0;
+    }
+
+    .image-container p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
     }
 }
