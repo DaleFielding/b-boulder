@@ -373,6 +373,15 @@ video {
 
 /* ---------- /CLASSES PAGE ---------- */
 
+/* ---------- WELLBEING FOCUS PAGE ---------- */
+
+.wellbeing-section h5 {
+    padding-top: 1rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+/* ---------- /WELLBEING FOCUS PAGE ---------- */
 
 
 /* LARGER SCREEN SIZES */
