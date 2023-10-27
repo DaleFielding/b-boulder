@@ -1,5 +1,13 @@
 <h1 align="center"><em>b</em>Boulder Website</h1>
 Created for the purpose of advertising <em>b</em>Boulder; a fictional indoor bouldering centre that also focuses on maintaining physical wellbeing. The website will showcase the facilities through images/videos, provide useful information regarding the location and services available.
+<br>
+
+#### [Click here to deploy this project live](https://dalefielding.github.io/b-boulder/)
+
+![A mock-up image of my bBoulder project](assets/resources/b-boulder-project-mock-up.png "A mock-up image of my bBoulder project")
+
+
+
 
 ## User Experience (UX)
 
