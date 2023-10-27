@@ -128,6 +128,7 @@ Code:
 
 * I have some used template code from Bootstrap documentation, such as the navbar to ensure responsiveness and a functioning collapsible menu - 
 [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/ "link to Bootstrap Docs")
+   * For the table in pricing I have used the bootstrap template initially, but then reduced to 2 columns and used bootstrap's width property to align the width of the cells as desired.
 
 
 * Tutorial used to understand how to place the two background images as desired for the homepage - 
