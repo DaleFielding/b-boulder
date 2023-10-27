@@ -384,6 +384,23 @@ video {
 
 /* ---------- /WELLBEING FOCUS PAGE ---------- */
 
+/* ---------- PRICING PAGE ---------- */
+
+.pricing-section,
+.pricing-section h5 {
+    padding-top: 1rem;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.no-side-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ---------- /PRICING PAGE ---------- */
+
+
 
 /* LARGER SCREEN SIZES */
 @media (min-width: 992px) {
