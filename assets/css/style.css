@@ -398,6 +398,18 @@ video {
     padding-right: 0;
 }
 
+.table-h4 {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
 /* ---------- /PRICING PAGE ---------- */
 
 
