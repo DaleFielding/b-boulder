@@ -224,4 +224,9 @@ git clone (insert URL)
     Instructions obtained from GitHub docs, further instructions can be found through the link below:<br>
 [Cloning a repository - GitHub docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
+## Acknowledgements 
+* Mitko Bachvarov - My Code Institute Mentor for helpful feedback.
 
+* Rob Mclaughlin - My tutor at Code Institute for their support and lectures.
+
+* Laura Gibbons - My partner for her user feedback; suggesting a light offer banner would better suit the webpages.
