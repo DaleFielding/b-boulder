@@ -239,7 +239,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * Serve static assets with an efficient cache policy; to speed up site use on repeat visits
     * Smaller image file sizes for mobile view for Wellbeing Focus page and About page; to save on load time
 
-    
+### Other Testing
+* Testing on other browsers:
+    * Google Chrome 
+    * Microsoft Edge 
+    * Firefox 
+* Google Developer tools
+    * I have continuously tested and played around with many different resolutions, to ensure there is no unexpected behaviour.
+* Devices:
+    * Google Pixel 
+    * Samsung S10 
+    * Dell Inspiron (Windows 11)
+* Other users
+    * My partner Laura Gibbons has tested the site herself on her Google Pixel
 
 ## Technologies Used
 
@@ -338,7 +350,7 @@ git clone (insert URL)
 * Press Enter to create your local clone.
 
     Instructions obtained from GitHub docs, further instructions can be found through the link below:<br>
-[Cloning a repository - GitHub docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+    [Cloning a repository - GitHub docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## Acknowledgements 
 * Mitko Bachvarov - My Code Institute Mentor for helpful feedback.
