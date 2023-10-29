@@ -125,16 +125,44 @@ I have including the remaining features within the site, implementing with HTML,
 
         I used a contrast checker on webaim.org to ensure that the color scheme meets the Web Content Accessibility Guidelines for readability. 
 
+## Technologies Used
 
-## References
+### Languages Used
 
-Typography:<br>
-* <a href="https://fonts.google.com">Google Fonts</a><br>
-* <a href="https://www.creatopy.com/blog/google-font-pairings/">Creatopy font pairings article</a><br>
-* <a href="https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy">Vev.design font pairings article</a><br>
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-Colour Scheme:<br>
-* <a href="https://webaim.org/resources/contrastchecker">Webaim contrast checker</a><br>
+### Frameworks, Libraries & Programs Used
+
+* [Bootstrap 5.3.2:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness of all pages.
+* [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on the social media links in the footer.
+* [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the chosen fonts that were used throughout the webpages.    
+* [Git](https://git-scm.com/)
+    - Git was used for version control to commit to Git and Push to GitHub.
+* [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+* [Visual Studio Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used as the IDE for the project.
+* [Adobe Powerpoint](https://www.microsoft.com/en-gb/microsoft-365/powerpoint)
+    - Adobe powerpoint was used to create the the initial designs/wireframes. 
+* [Figma](https://www.figma.com/login?is_not_gen_0=true) 
+    - Was used to add the initial wireframes/designs to a workspace, then to complete further wireframes for mobile and desktop pages.
+* [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to resize images for the initial designs and and to save elements from Figma into individual files.
+* [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-avif)
+    - Was used to convert some of the jpg images into avif files.
+
+
+## Other References
+
+### Articles
+* #### Typography
+    * [Creatopy font pairings article](https://www.creatopy.com/blog/google-font-pairings/)
+    *  [Vev.design font pairings article](https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy)
+
 
 
 Code:
