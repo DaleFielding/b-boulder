@@ -2,7 +2,7 @@
 Created for the purpose of advertising <em>b</em>Boulder; a fictional indoor bouldering centre that also focuses on maintaining physical wellbeing. The website will showcase the facilities through images/videos, provide useful information regarding the location and services available.
 <br>
 
-#### [Click here to deploy this project live](https://dalefielding.github.io/b-boulder/)
+#### [View the live project here](https://dalefielding.github.io/b-boulder/)
 
 ![A mock-up image of my bBoulder project](assets/resources/b-boulder-project-mock-up.png "A mock-up image of my bBoulder project")
 
@@ -10,6 +10,31 @@ Created for the purpose of advertising <em>b</em>Boulder; a fictional indoor bou
 
 
 ## User Experience (UX)
+
+-   ### User Stories/Visitor Goals
+    * As a user, I would like to be see information relating to services available.
+    * As a user, I would like to be see information relating to classes available
+    * As a user, I would like to view prices for the above.
+    * As a user, I would like to access contact information for the company 
+    * As a user, I would like to access the location of the company
+    * As a user, I would like to see imagery relating to safety information
+
+-   ### Client Objectives
+    The company bBoulder would like:
+    *  A website built that will promote their business and encourage visits to their centre.
+    * They have asked for a website that that is responsive, functional and professional.
+    * They would like it to be aimed at the general public of all ages, as their are virtually no restrictions in terms of age regarding bouldering at their facilities.
+    * They have a focus on wellbeing and injury prevent so would like this to be made clear in the content.
+
+-   ### Developer Objectives 
+    * To design and build a site that meets the clients objectives and factoring what a user would want from this site.
+    * To ensure that the website meets all accessibility requirements, allowing anyone to use regardless of their abilities/needs
+    * To carry out other manual testing on each page and with other device sizes.
+    * To carry out testing using validators and google lighthouse in order to minimise any warnings or errors that the site may contain.
+    * To fix any bugs that there might be in the site.
+
+
+
 
 ### Considerations:
 
