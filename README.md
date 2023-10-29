@@ -164,7 +164,6 @@ I have including the remaining features within the site, implementing with HTML,
     *  [Vev.design font pairings article](https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy)
 
 
-
 ## Code
 
 ### Templates 
@@ -204,5 +203,25 @@ I have including the remaining features within the site, implementing with HTML,
     * Image of woman receiving osteopathy is from <a href="https://www.freepik.com/free-photo/professional-female-physiotherapist-giving-shoulder-massage-blonde-woman_1318975.htm#query=osteopatie&position=8&from_view=search&track=ais">Freepik</a>
     * Image of woman relaxing in water is from <a href="https://www.freepik.com/free-photo/woman-relaxing-spa_3513036.htm#page=5&query=person%20in%20bath&position=43&from_view=search&track=ais">Freepik</a>
 
- 
+## Deployment
+
+### Cloning the repository
+* On GitHub.com, navigate to the main page of the repository.
+Above the list of files, click  Code.
+
+* Copy the URL for the repository.
+To clone the repository using HTTPS, under "HTTPS", click .
+To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
+To clone a repository using GitHub CLI, click GitHub CLI, then click .
+
+* Open Git Bash.
+Change the current working directory to the location where you want the cloned directory.
+Type git clone, and then paste the URL you copied earlier.
+git clone (insert URL)
+
+* Press Enter to create your local clone.
+
+    Instructions obtained from GitHub docs, further instructions can be found through the link below:<br>
+[Cloning a repository - GitHub docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
 
