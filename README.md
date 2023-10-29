@@ -184,7 +184,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * There were warnings due to table rows not being the same column count as the first rows, and an warning to say that the table section lacks a header. These issues were because I had tried to use the table header to span the title of the table. <br>Fixed this by removing the tr and th elements for the tables and replacing them with a H4 tags above the table.
 * External stylesheet (style.css)
     * When putting in the page URI for the webpages Came up with 16 parsing errors relating to the bootstrap CDN.
-    * However when using direct input and pasting in my external CSS file, there are no errors.  There were however some warnings for the below: 
+    * However when using direct input and pasting in my external CSS file, there are no errors.<br>  There were however some warnings for the below: 
         > URI : TextArea<br>
         > 214
         -moz-transition is a vendor extension<br>
@@ -199,9 +199,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             > 255
         -o-transition is a vendor extension<br>
     
-    I have left those in as this was taught in a codeinstitute course video. 
+    I have left those in, as this was taught in a codeinstitute course video. 
 
+### Google Lighthouse:
 
+* #### Mobile results
+    * Home page
+    ![Home page - Mobile](assets/resources/home-page-lighthouse-test-mobile.png "Home page mobile view")
+    * About page
+    ![About page - Mobile](assets/resources/about-page-lighthouse-test-mobile.png "About page mobile view")
+    * Wellbeing Focus page
+    ![Wellbeing Focus page - Mobile](assets/resources/wellbeing-focus-page-lighthouse-test-mobile.png "Wellbeing Focus page mobile view")
+    * Classes page
+    ![Classes page - Mobile](assets/resources/classes-page-lighthouse-test-mobile.png "Classes page mobile view")
+    * Pricing page
+    ![Pricing Page - Mobile](assets/resources/pricing-page-lighthouse-test-mobile.png "Pricing page mobile view")
+
+* #### Desktop results 
+    * Home page
+    ![Home page - Desktop](assets/resources/home-page-lighthouse-test-desktop.png "Home page desktop view")
+    * About page
+    ![About page - Desktop](assets/resources/about-page-lighthouse-test-desktop.png "About page desktop view")
+    * Wellbeing Focus page
+    ![Wellbeing Focus page - Desktop](assets/resources/wellbeing-focus-page-lighthouse-test-desktop.png "Wellbeing Focus page desktop view")
+    * Classes page
+    ![Classes Page - Desktop](assets/resources/classes-page-lighthouse-test-desktop.png "Classes page desktop view")
+    * Pricing page
+    ![Pricing Page - Desktop](assets/resources/pricing-page-lighthouse-test-desktop.png "Pricing page desktop view")
+
+* #### Changes made due to issues flagged by Google Lighthouse
+
+    * Added alt images and sr attributes where appropriate throughout webpages
+    * Changed webpage images to be avif files instead of jpeg; for better compression
+    * Included meta description tags for better search engine optimization 
+    * Added smaller background images to the home page, that are then used instead of the larger images when viewing on smaller devices 
+
+* #### Further improvements to implement: 
+    * To eliminate render-blocking images; to save on load time in pages
+    * Serve static assets with an efficient cache policy; to speed up site use on repeat visits
+    * Smaller image file sizes for mobile view for Wellbeing Focus page and About page; to save on load time
+
+    
 
 ## Technologies Used
 
