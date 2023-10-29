@@ -155,6 +155,53 @@ I have including the remaining features within the site, implementing with HTML,
 * An error page, used to indicated if a user has tried to access an incorrect path within the domain
 * A fully functional calendar for making booking for osteopathy and potentially classes as well. This will respond to user to inform them whether or not the booking was successful.
 
+## Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors or warnings in the project.
+
+### W3C Markup Validator - Results:
+* [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdalefielding.github.io%2Fb-boulder%2F) 
+* [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdalefielding.github.io%2Fb-boulder%2Fabout.html) 
+* [Wellbeing Focus page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdalefielding.github.io%2Fb-boulder%2Fwellbeing-focus.html)
+* [Classes page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdalefielding.github.io%2Fb-boulder%2Fclasses.html) 
+* [Pricing page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdalefielding.github.io%2Fb-boulder%2Fpricing.html)
+
+### W3C CSS Validator - Results:
+* [External stylesheet (style.css)](https://jigsaw.w3.org/css-validator/validator)
+
+#### Page Errors/Warning Summary:
+* Home page
+    * Encountered no issues.
+* About page
+    * There was an error due to px measurements being used for height and width of the video. <br>Fixed by deleting px in those measurements.
+    * There was an error due to an alt attribute being included in the video. <br>Fixed by removing that.
+* Wellbeing Focus page
+    * Encountered no issues.
+* Classes page
+    * Encountered no issues.
+* Pricing page
+    * There were errors due to scope attributes being included with the td elements, with suggestion to include these on the th elements instead. <br>Fixed this by deleting the scope attributes from the td elements. Scope attributes were already included within the th elements.
+    * There were warnings due to table rows not being the same column count as the first rows, and an warning to say that the table section lacks a header. These issues were because I had tried to use the table header to span the title of the table. <br>Fixed this by removing the tr and th elements for the tables and replacing them with a H4 tags above the table.
+* External stylesheet (style.css)
+    * When putting in the page URI for the webpages Came up with 16 parsing errors relating to the bootstrap CDN.
+    * However when using direct input and pasting in my external CSS file, there are no errors.  There were however some warnings for the below: 
+        > URI : TextArea<br>
+        > 214
+        -moz-transition is a vendor extension<br>
+            > 215
+        -webkit-transition is a vendor extension<br>
+            > 216
+        -o-transition is a vendor extension<br>
+            > 253
+        -moz-transition is a vendor extension<br>
+            > 254
+        -webkit-transition is a vendor extension<br>
+            > 255
+        -o-transition is a vendor extension<br>
+    
+    I have left those in as this was taught in a codeinstitute course video. 
+
+
 
 ## Technologies Used
 
