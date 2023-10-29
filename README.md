@@ -125,6 +125,37 @@ I have including the remaining features within the site, implementing with HTML,
 
         I used a contrast checker on webaim.org to ensure that the color scheme meets the Web Content Accessibility Guidelines for readability. 
 
+## Features
+* Responsive on all device sizes
+* Meta descriptions to improve SEO
+* Semantic elements, alt attributes and sr attributes to assist with accessibility/screen readers 
+* Logo that directs to home page
+* Navigation is sticky to ensure it is always accessible at the top of the page. Has links with active status and underline when hovered over
+* Navigation changes to hamburger menu for medium size devices and below.
+* Offer banner displays towards the top until scrolled down the page
+* Background images scale to always fit the full width of the page
+* Background banner changes between two different designs depending on device type
+* Footer has displays opening times, quick links, icons for social media and a location icon that directs to google maps. The footer links include a color transition in keeping with the navigation color. The layout of the footer adjusts to suit the type of device. 
+
+* About page contains: 
+    * Safety information
+    * Video showcasing bouldering facilities
+    * Four images showcasing bouldering facilities
+* Wellbeing Focus contains:
+    * A statement relating to the companies wellbeing focus.
+    * Three images that relate to the facilities on site that assist with wellbeing, including a description for each one.
+* Classes page contains: 
+    * An accordion which has each of the classes that are on often, which expands when clicked to give a description about each one.
+    * Safety information included in this page also; in case the user has decided not to the about page.
+* Classes page contains: 
+    * Confirmation that registration and joining is free and that customers can just turn up on the day.
+    * Four tables which confirm the prices for each service; Bouldering sessions, classes, wellbeing facilities and equipment hire. There is also the inclusion of email contact details for oestopathy, to find out availability.
+
+## Future Implementations
+* An error page, used to indicated if a user has tried to access an incorrect path within the domain
+* A fully functional calendar for making booking for osteopathy and potentially classes as well. This will respond to user to inform them whether or not the booking was successful.
+
+
 ## Technologies Used
 
 ### Languages Used
