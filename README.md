@@ -204,27 +204,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Google Lighthouse:
 
 * #### Mobile results
-    * Home page
+    * Home page<br>
     ![Home page - Mobile](assets/resources/home-page-lighthouse-test-mobile.png "Home page mobile view")
-    * About page
+    * About page<br>
     ![About page - Mobile](assets/resources/about-page-lighthouse-test-mobile.png "About page mobile view")
-    * Wellbeing Focus page
+    * Wellbeing Focus page<br>
     ![Wellbeing Focus page - Mobile](assets/resources/wellbeing-focus-page-lighthouse-test-mobile.png "Wellbeing Focus page mobile view")
-    * Classes page
+    * Classes page<br>
     ![Classes page - Mobile](assets/resources/classes-page-lighthouse-test-mobile.png "Classes page mobile view")
-    * Pricing page
+    * Pricing page<br>
     ![Pricing Page - Mobile](assets/resources/pricing-page-lighthouse-test-mobile.png "Pricing page mobile view")
 
 * #### Desktop results 
-    * Home page
+    * Home page<br>
     ![Home page - Desktop](assets/resources/home-page-lighthouse-test-desktop.png "Home page desktop view")
-    * About page
+    * About page<br>
     ![About page - Desktop](assets/resources/about-page-lighthouse-test-desktop.png "About page desktop view")
-    * Wellbeing Focus page
+    * Wellbeing Focus page<br>
     ![Wellbeing Focus page - Desktop](assets/resources/wellbeing-focus-page-lighthouse-test-desktop.png "Wellbeing Focus page desktop view")
-    * Classes page
+    * Classes page<br>
     ![Classes Page - Desktop](assets/resources/classes-page-lighthouse-test-desktop.png "Classes page desktop view")
-    * Pricing page
+    * Pricing page<br>
     ![Pricing Page - Desktop](assets/resources/pricing-page-lighthouse-test-desktop.png "Pricing page desktop view")
 
 * #### Changes made due to issues flagged by Google Lighthouse
