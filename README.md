@@ -255,6 +255,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * Other users
     * My partner Laura Gibbons has tested the site herself on her Google Pixel.
 
+### Bugs
+* Company Slogan Text within the banner. 
+    * The banner background on the home page is made up of two triangles.
+    * I have found it challenging to align the text due to the design of the webpage. This is because the layout changes from being aligned with the top triangle part of the banner background (div), to the center of both of the triangles when viewed on smaller devices.
+    * As the slogan text is contained within the top triangle div, I can align this perfectly when the required alignment is bottom right of this div. However when the requirement is for the slogan text to be centred between the two triangles, the text shifts around and does not remain perfectly centred.
+    * This fits okay in the device views that I have tested, and resolutions tested by playing around on Google Developer tools.
+    * Potential fixes for this:
+        * To research and implement JavaScript that can change the HTML dynamically so that a further div can be added in the middle of the two triangles; to which the text is centred.
+        * To consider using one banner background design to be used throughout all device views.
+
 ## Technologies Used
 
 ### Languages Used
