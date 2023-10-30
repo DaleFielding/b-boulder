@@ -265,6 +265,44 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         * To research and implement JavaScript that can change the HTML dynamically so that a further div can be added in the middle of the two triangles; to which the text is centred.
         * To consider using one banner background design to be used throughout all device views.
 
+-   ### Testing User Experience (UX) Section
+	- #### User Stories
+        * As a user, I would like to see information relating to services available. 
+	        * Pass - This is located within the wellbeing focus page and the pricing page.
+        * As a user, I would like to see information relating to classes available.
+            * Pass - This is located within the classes page and the pricing page.
+        * As a user, I would like to view prices for the above.
+            * Pass - This is located within the pricing page.
+        * As a user, I would like to access contact information for the company.
+            * Pass - This is located within the footer and contact detail for osteopath is included within the pricing page.
+        * As a user, I would like to access the location of the company.
+            * Pass - This is located within the footer.
+        * As a user, I would like to see imagery relating to safety information.
+            * Pass - There are clear safety instructions included within the classes page and the about page.
+
+    - #### Client Objectives 
+        *  A website built that will promote their business and encourage visits to their centre.
+            * Pass - I believe I have designed and built a website that does promote and would encourage visits.
+        * They have asked for a website that is responsive, functional and professional.
+            * Pass - I believe this does meet their expectation on this.
+        * They would like it to be aimed at the general public of all ages, as there are virtually no restrictions in terms of age regarding bouldering at their facilities.
+            * Pass - I believe I have opted for a design that is appropriate to all ages.
+        * They have a focus on wellbeing and injury prevention so would like this to be made clear in the content.
+            * Pass - This is included in detail within the wellbeing focus page, in the about page, and hints of this in the home page. 
+
+    - #### Developer Objectives
+        * To design and build a site that meets the client’s objectives and factoring in what a user would want from this site.
+            * Pass -  as noted in the previous two sections
+        * To ensure that the website meets all accessibility requirements, allowing anyone to use the site regardless of their abilities/needs.
+            * Pass - I have included alt tags, sr attributes, semantic elements, readable fonts/font sizes and have taken into account contrast.
+        * To carry out other manual testing on each page and with other device sizes.
+            * Pass - This has been completed.
+        * To carry out testing using validators and google lighthouse in order to minimise any warnings or errors that the site may contain.
+            * Pass - This has been completed.
+        * To fix any bugs that there might be in the site.
+            * Fail - Unfortunately this has not passed (in my opinion); see [Bugs](#Bugs).
+
+
 ## Technologies Used
 
 ### Languages Used
