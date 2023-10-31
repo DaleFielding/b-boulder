@@ -489,4 +489,31 @@ video {
     .img-2 {
         background-image: url("../images/small-bg-img-man-bathing.avif");
     }
+
+    .banner-text-top h1 {
+        font-size: calc(1.375rem + 1vw);
+        margin: 0;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 992px) and (min-width: 320px) {
+    .banner-text-top {
+        bottom: -5vw;
+        max-height: 40vh;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .banner-text-top h1 {
+        font-size: calc(1.375rem + 1vw);
+        margin: 0;
+    }
+
+    .banner-text-top a {
+        font-size: 75%;
+    }
+
 }
