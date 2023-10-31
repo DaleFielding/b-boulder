@@ -255,6 +255,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * Other users
     * My partner Laura Gibbons has tested the site herself on her Google Pixel.
 
+#### Unexpected Results
+
+* Expected:
+    * Company slogan text expected to remain centred within the banner on all devices.
+* Testing:
+    * Initially tested using various different preset/manual resolutions in Google Developer tools.   
+    * Later tested on a couple of mobile devices.
+* Result:
+    * In landscape and mobile dimensions, I noticed the company slogan text within the banner does not align with the centre of the banner as intended:
+    * The banner had narrowed due to being stretching by the narrow height
+    * The text had shifted above and outside of the banner.
+    * In portrait on mobile devices 
+* Fix: 
+	* I added a media query for orientation landscape. Made the height auto, the width 100%, aligned text to center, padding to 0, and reduced the font size to fit better within the banner. 
+    The text is now aligned much better within the banner.
+
 ### Bugs
 * Company Slogan Text within the banner. 
     * The banner background on the home page is made up of two triangles.
