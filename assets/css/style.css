@@ -410,7 +410,7 @@ video {
 
 
 /* LARGER SCREEN SIZES */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     .navbar {
         padding: 0 0 0 35px;
     }
