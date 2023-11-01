@@ -203,31 +203,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     I have left those in, as this was taught in the codeinstitute course material (one of the videos). 
 
+### Developer Mistake After Testing: 
+* I had carried out a number of tests, but then decided to add the navigation element and alert banner within the header elements for better semantics. 
+* I did not believe at the time that this would have an impact on the functionality of position of the navbar, and chose at the time not to retest.
+#### Steps to Fix:
+* I realised later on that the navbar was no longer sticky at the top of the page, which was not intended.
+* I had managed to fix this by moving the class sticky-top to the header instead of the navbar.
+* However I noticed on mobile devices that when I scrolled down the page, part of the navigation would disappear off the screen. 
+* After doing some research and trying out a few potential solutions, I came across a discussion on Stack Overflow that helped me solve the issue. This involved including ‘height=device-height, minimum-scale=1.0 + target-densitydpi=device-dpi’ to the viewport meta tag.
+#### Follow up action:
+* I understand the importance of always testing when changes are made and to never assume.
+* I have retested each page/css with validators, there are no changes to the above outcome as all pages/css still pass with no errors.
+* I have updated the subsequent tests below. 
+
+
 ### Google Lighthouse:
 
 * #### Mobile results
     * Home page<br>
-    ![Home page - Mobile](assets/resources/home-page-lighthouse-test-mobile.png "Home page mobile view")
+    ![Home page - Mobile](assets/resources/home-page-mobile-lighthouse-test.png "Home page mobile view")
     * About page<br>
-    ![About page - Mobile](assets/resources/about-page-lighthouse-test-mobile.png "About page mobile view")
+    ![About page - Mobile](assets/resources/about-page-mobile-lighthouse-test.png "About page mobile view")
     * Wellbeing Focus page<br>
-    ![Wellbeing Focus page - Mobile](assets/resources/wellbeing-focus-page-lighthouse-test-mobile.png "Wellbeing Focus page mobile view")
+    ![Wellbeing Focus page - Mobile](assets/resources/wellbeing-focus-page-mobile-lighthouse-test.png "Wellbeing Focus page mobile view")
     * Classes page<br>
-    ![Classes page - Mobile](assets/resources/classes-page-lighthouse-test-mobile.png "Classes page mobile view")
+    ![Classes page - Mobile](assets/resources/classes-page-mobile-lighthouse-test.png "Classes page mobile view")
     * Pricing page<br>
-    ![Pricing Page - Mobile](assets/resources/pricing-page-lighthouse-test-mobile.png "Pricing page mobile view")
+    ![Pricing Page - Mobile](assets/resources/pricing-page-mobile-lighthouse-test.png "Pricing page mobile view")
 
 * #### Desktop results 
     * Home page<br>
-    ![Home page - Desktop](assets/resources/home-page-lighthouse-test-desktop.png "Home page desktop view")
+    ![Home page - Desktop](assets/resources/home-page-desktop-lighthouse-test.png "Home page desktop view")
     * About page<br>
-    ![About page - Desktop](assets/resources/about-page-lighthouse-test-desktop.png "About page desktop view")
+    ![About page - Desktop](assets/resources/about-page-desktop-lighthouse-test.png "About page desktop view")
     * Wellbeing Focus page<br>
-    ![Wellbeing Focus page - Desktop](assets/resources/wellbeing-focus-page-lighthouse-test-desktop.png "Wellbeing Focus page desktop view")
+    ![Wellbeing Focus page - Desktop](assets/resources/wellbeing-focus-page-desktop-lighthouse-test.png "Wellbeing Focus page desktop view")
     * Classes page<br>
-    ![Classes Page - Desktop](assets/resources/classes-page-lighthouse-test-desktop.png "Classes page desktop view")
+    ![Classes Page - Desktop](assets/resources/classes-page-desktop-lighthouse-test.png "Classes page desktop view")
     * Pricing page<br>
-    ![Pricing Page - Desktop](assets/resources/pricing-page-lighthouse-test-desktop.png "Pricing page desktop view")
+    ![Pricing Page - Desktop](assets/resources/pricing-page-desktop-lighthouse-test.png "Pricing page desktop view")
 
 * #### Changes made due to issues flagged by Google Lighthouse
 
@@ -257,19 +271,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Unexpected Results
 
+Company slogan text alignment:
 * Expected:
-    * Company slogan text expected to remain centred within the banner on all devices.
+    * To remain centred within the banner on all devices.
 * Testing:
     * Initially tested using various different preset/manual resolutions in Google Developer tools.   
     * Later tested on a couple of mobile devices.
 * Result:
     * In landscape and mobile dimensions, I noticed the company slogan text within the banner does not align with the centre of the banner as intended:
-    * The banner had narrowed due to being stretching by the narrow height
+    * The banner had narrowed due to being stretched by the narrow height.
     * The text had shifted above and outside of the banner.
-    * In portrait on mobile devices 
+    * In portrait on mobile devices. 
 * Fix: 
-	* I added a media query for orientation landscape. Made the height auto, the width 100%, aligned text to center, padding to 0, and reduced the font size to fit better within the banner. 
+    * I added a media query for orientation landscape. Made the height auto, the width 100%, aligned text to center, padding to 0, and reduced the font size to fit better within the banner. 
     The text is now aligned much better within the banner.
+
+Background Images:
+* Expected:
+    * To appear on all browsers/devices.
+* Testing:
+    * With Google Developer tools, browsers and devices that are listed above.
+* Result:
+    * Appeared on all aside from Microsoft Edge.
+* Fix:
+    * I carried out some research online and was surpised to learn that avif files are not supported by Microsoft Edge. 
+    * Research also indicated that webp files are much better supported.
+    * I converted the avif files into webp and updated the paths in my code. 
+    * Retested each page with the testing methods mentioned above. 
+        
 
 ### Bugs
 * Company Slogan Text within the banner. 
@@ -348,15 +377,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Photoshop was used to resize images for the initial designs and to save elements from Figma into individual files.
 * [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-avif)
     - Pixelied was used to convert some of the jpg images into avif files.
+* [Cloudconvert](https://cloudconvert.com/avif-to-webp) 
+    * Cloudconvert was use to convert the avif files into webp files.
 
 
 ## Other References
 
 ### Articles
+
+* [Stack Overflow discussion that helped me fix responsiveness on mobile devices](https://stackoverflow.com/questions/60511542/css-sticky-position-not-working-properly-on-mobile)
+
 * #### Typography
     * [Creatopy font pairings article](https://www.creatopy.com/blog/google-font-pairings/)
     *  [Vev.design font pairings article](https://www.vev.design/blog/google-font-combinations/#:~:text=Poppins%20%2B%20Vollkorn,a%20header%20or%20body%20copy)
-
 
 ## Code
 
