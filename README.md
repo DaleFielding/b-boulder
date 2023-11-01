@@ -118,9 +118,8 @@ I have included the remaining features within the site; implemented with HTML, C
     * ##### Colour Scheme:
         I have chosen to go with a colour palette that represents the feeling of the experience that the company offers:
         - Orange (HEX #d46333); fun, happiness, dynamic. 
-        <p style="background-color:#d46333">&nbsp;</p>
         -  Green (HEX #3da369); renewal, healing, harmony.
-        <p style="background-color:#3da369">&nbsp;</p> 
+        
         I had initially gone for a much darker green (#04861E) then I actually wanted in order to pass the contrast check. However when playing around to achieve a more preferable green, I noticed the new green does pass when using large text for the foreground; which is my only intention for this green on the site.
 
         I will also be using white, black and grey as neutral colours/shades for typography and background sections.
