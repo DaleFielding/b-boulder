@@ -119,11 +119,11 @@ body {
 
 /* BACKGROUND-IMAGE */
 .img-1 {
-    background-image: url("../images/bg-img-woman-climbing.avif");
+    background-image: url("../images/bg-img-woman-climbing.avif"), url("../images/bg-img-woman-climbing.webp");
 }
 
 .img-2 {
-    background-image: url("../images/bg-img-man-bathing.avif");
+    background-image: url("../images/bg-img-man-bathing.avif"), url("../images/bg-img-man-bathing.webp");
 }
 
 .bg-img {
@@ -510,10 +510,10 @@ video {
 
 @media (max-width: 1000px) {
     .img-1 {
-        background-image: url("../images/small-bg-img-woman-climbing.avif");
+        background-image: url("../images/small-bg-img-woman-climbing.avif"), url("../images/small-bg-img-woman-climbing.webp");
     }
 
     .img-2 {
-        background-image: url("../images/small-bg-img-man-bathing.avif");
+        background-image: url("../images/small-bg-img-man-bathing.avif"), url("../images/small-bg-img-man-bathing.webp");
     }
 }
