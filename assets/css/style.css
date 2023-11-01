@@ -457,6 +457,11 @@ video {
     .main-content {
         padding: 1rem;
     }
+
+    .banner-text-top h1 {
+        font-size: calc(1.375rem + 1vw);
+        margin: 0;
+    }
 }
 
 /* SMALLER SCREEN SIZES  */
@@ -481,21 +486,6 @@ video {
 }
 
 
-@media (max-width: 667px) {
-    .img-1 {
-        background-image: url("../images/small-bg-img-woman-climbing.avif");
-    }
-
-    .img-2 {
-        background-image: url("../images/small-bg-img-man-bathing.avif");
-    }
-
-    .banner-text-top h1 {
-        font-size: calc(1.375rem + 1vw);
-        margin: 0;
-    }
-}
-
 @media (orientation: landscape) and (max-width: 992px) and (min-width: 320px) {
     .banner-text-top {
         bottom: -5vw;
@@ -516,4 +506,14 @@ video {
         font-size: 75%;
     }
 
+}
+
+@media (max-width: 1000px) {
+    .img-1 {
+        background-image: url("../images/small-bg-img-woman-climbing.avif");
+    }
+
+    .img-2 {
+        background-image: url("../images/small-bg-img-man-bathing.avif");
+    }
 }
