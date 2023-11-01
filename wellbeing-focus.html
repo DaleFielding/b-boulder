@@ -2,7 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="viewport"
+            content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, target-densitydpi=device-dpi"
+        />
         <!-- SEO -->
         <meta
             name="description"
@@ -30,9 +33,9 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     </head>
     <body>
-        <header>
+        <header class="sticky-top">
             <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg sticky-top">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand brand-font" href="index.html"
                         ><em>b</em>Boulder</a
@@ -65,16 +68,16 @@
                             </li>
                             <li class="nav-item">
                                 <a
-                                    class="nav-link active"
-                                    aria-current="page"
+                                    class="nav-link"
+                                    aria-current="false"
                                     href="about.html"
                                     >About</a
                                 >
                             </li>
                             <li class="nav-item">
                                 <a
-                                    class="nav-link"
-                                    aria-current="false"
+                                    class="nav-link active"
+                                    aria-current="page"
                                     href="wellbeing-focus.html"
                                     >Wellbeing Focus</a
                                 >
@@ -100,21 +103,19 @@
                 </div>
             </nav>
             <!-- /Navigation -->
-            <!-- Alert -->
-            <div class="container-fluid alert-container">
-                <div class="row d-none d-sm-block">
-                    <div class="col-12">
-                        <div
-                            class="alert alert-dark text-center heading-font-ital"
-                        >
-                            We are currently offering 20% off all classes!
-                            <small>For a limited time only.</small>
-                        </div>
+        </header>
+        <!-- Alert -->
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="alert alert-dark text-center heading-font-ital">
+                        We are currently offering 20% off all classes!
+                        <small>For a limited time only.</small>
                     </div>
                 </div>
             </div>
-            <!-- /Alert -->
-        </header>
+        </div>
+        <!-- /Alert -->
         <main class="row main-content wellbeing-focus-main">
             <!-- Wellbeing Focus -->
             <section class="col-12 main-content-section">
